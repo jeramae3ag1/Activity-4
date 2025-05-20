@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styled.css"?>
+
+<employeeinfo>
+
+
+    <employees>
+        <employee>
+             <uniqueid>20-005</uniqueid>
+            <name>Jeramae Panganiban</name>
+            <age>22</age>
+            <contact>1362-456-7891</contact>
+            <address>San Nicolas Hagonoy,Bulacan</address>
+            <Marital_Status>Single</Marital_Status>
+            <position>Software Engineer</position>
+        </employee>
+    
+
+        <employee>
+             <uniqueid>20-006</uniqueid>
+            <name>JC CRISOSTOMO</name>
+            <age>25</age>
+            <contact>0963-894-8411</contact>
+            <address>Longos Malolos Bulacan</address>
+            <Marital_Status>Married</Marital_Status>
+            <position>Graphic Designer</position>
+        </employee>
+    </employees>
+    
+    <employee>
+         <uniqueid>20-007</uniqueid>
+        <name> Kulay Panganiban</name>
+        <age>31</age>
+        <contact>8754-334-2671</contact>
+        <address>Pampanga City</address>
+        <Marital_Status> Single</Marital_Status>
+        <position> Software Engineer</position>
+    </employee>
+</employeeinfo>

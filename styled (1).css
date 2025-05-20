@@ -1,0 +1,50 @@
+employeeinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+employee {
+    display: block;
+    background-color: #b0efd5;
+    padding: 5px;
+    border: 5px solid #4f97a3;
+    border-radius: 15px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+uniqueid {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+name {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+employee > * {
+    display: block;
+    padding: 8px;
+    margin: 5px 0;
+    text-indent: 30px;
+    font-weight: bold;
+}
+
+age::before { content: "Age: "; }
+contact::before { content: "Contact: "; }
+address::before { content: "Address: "; }
+marital_status::before { content: "Marital Status: "; }
+position::before { content: "Position: "; }
